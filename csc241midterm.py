@@ -2,6 +2,7 @@
 # Midterm exam template
 # Qili Sui
 
+
 # You DO NOT have to write doc strings
 
 # Question 1
