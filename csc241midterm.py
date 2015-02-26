@@ -139,5 +139,3 @@ print (num)
 print (">>> sentenceCount('csc241midterm/empty.txt')")
 print (sentenceCount('csc241midterm/empty.txt'))
 print (">>> \n")
-Status API Training Shop Blog About
-© 2015 GitHub, Inc. Terms Privacy Security Contact
