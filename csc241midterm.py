@@ -16,6 +16,14 @@ def countPos(lst):
             count = 0
     return count
 
+print (countPos([1,3,5,-5,-3,-1]))
+num = countPos([6, 4, 2, 0])
+print (num)
+print (countPos([3.1415, 2.178, -3.333, 17.159, 0.11]))
+print (countPos([-1, -2, -3]))
+print (countPos([]))
+
+"""
 # Question 2
 def censorNum(s):
     for i in s:
@@ -28,7 +36,7 @@ def censorNum(s):
         elif i not in ('1234567890'):
             print(s)
         
-            
+        
 # Question 3
 def apr(info):
     apr.split(" ")
@@ -47,14 +55,13 @@ def apr(info):
                 print('You need to improve your performance in',apr[:4],i,'.')
         else:
             for i in ('01234567890'):  
-                print('An invalid grade for … was provided.',apr[:4],i,'.')
+                print('An invalid grade forpyt  was provided.',apr[:4],i,'.')
 
 # Question 4
 def sentenceCount(fname):
     inf=open(fname,'r')
     con=inf.read()
     inf.close()
-
     for i in con:
         if i in( '.!?'):
             p=con.split(".")
@@ -62,3 +69,4 @@ def sentenceCount(fname):
             temp2=temp1.split("?")
             temp3=temp2.split("\n")
         len(temp3)
+"""
