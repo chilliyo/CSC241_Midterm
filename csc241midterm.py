@@ -17,6 +17,9 @@ def countPos(lst):
     return count
 
 
+    
+
+
 # Question 2
 def censorNum(s):
     for i in s:
